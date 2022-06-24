@@ -1,0 +1,15 @@
+experimentName: gbm_risknet
+trialConcurrency: 1
+maxExperimentDuration: 2h
+maxTrialNumber: 80
+searchSpaceFile: search_space_rn.json
+useAnnotation: false
+trialCommand: python risknet_search.py
+trialCodeDirectory: .
+trialGpuNumber: 0
+tuner:
+  name: TPE
+  classArgs:
+    optimize_mode: maximize
+trainingService:
+  platform: local

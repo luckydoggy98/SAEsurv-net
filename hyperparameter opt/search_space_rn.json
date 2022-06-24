@@ -1,0 +1,18 @@
+{
+    
+    #"dropout_rate":{"_type":"uniform","_value":[0, 0.5]},
+    #"hiddennueron_num":{"_type":"quniform","_value":[4,20,2]},
+
+    "dropout_rate1":{"_type":"uniform","_value":[0, 0.5]},
+    "dropout_rate2":{"_type":"uniform","_value":[0, 0.5]},
+    "hiddennueron_num1":{"_type":"quniform","_value":[10,290,2]},
+    "hiddennueron_num2":{"_type":"quniform","_value":[10,290,2]},
+
+    "optimizer_name": {"_type":"choice", "_value": ["rmsprop","adamax","nadam","sgd","adagrad","adadelta","adam"]},
+    "activation_name":{"_type":"choice","_value":["softsign","relu","tanh","sigmoid","selu"]},
+    "regularizer_l1": {"_type":"choice","_value":[0,0.01,0.001,0.0001,0.00001]},
+    "regularizer_l2": {"_type":"choice","_value":[0,0.01,0.001,0.0001,0.00001]},
+    "learning_rate":{"_type":"choice","_value":[0.000001,0.00001]},#,0.0001, 0.001
+    "epoch_num":{"_type": "choice", "_value": [20,30,40,50,60,70,80,90]},
+    "batch_num":{"_type": "choice", "_value": [20,30,40, 50]}
+}

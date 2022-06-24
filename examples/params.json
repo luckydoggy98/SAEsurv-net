@@ -1,0 +1,79 @@
+{
+    "hidden_layer1" :1,
+    "hidden_layer2" :1,
+    "hidden_layer_ds" :2,
+    "params_gene" : {
+        "dropout_rate": 0.45668603318188494,
+        "bottleneck_num": 290,
+        "optimizer_name": "adam",
+        "activation_name": "softsign",
+        "regularizer_l1": 0,
+        "regularizer_l2": 0,
+        "learning_rate": 0.001,
+        "epoch_num": 50,
+        "batch_num": 30
+    },
+    "params_cnv" : {
+        "dropout_rate": 0.02198931200887617,
+        "bottleneck_num": 230,
+        "optimizer_name": "adam",
+        "activation_name": "selu",
+        "regularizer_l1": 0,
+        "regularizer_l2": 0.0001,
+        "learning_rate": 0.01,
+        "epoch_num": 60,
+        "batch_num": 55
+    },
+    "params_multi" : {
+        "dropout_rate": 0.10711450911081269,
+        "bottleneck_num": 400,
+        "optimizer_name": "adamax",
+        "activation_name": "softsign",
+        "regularizer_l1": 0,
+        "regularizer_l2": 0.00001,
+        "learning_rate": 0.01,
+        "epoch_num": 40,
+        "batch_num": 40
+    },
+    "params_ds" : {
+        "dropout_rate1": 0.3307,
+        "dropout_rate2": 0.3307,
+        "hiddennueron_num1": 60,
+        "hiddennueron_num2": 60,
+        "optimizer_name": "nadam",
+        "activation_name": "sigmoid",
+        "regularizer_l1": 0.00001,
+        "regularizer_l2": 0,
+        "learning_rate": 0.001,
+        "epoch_num": 10,
+        "batch_num": 50
+    },
+    "params_ds_gene":{
+        "dropout_rate1": 0.08650796081348923,
+        "dropout_rate2": 0.04494396746631461,
+        "hiddennueron_num1": 174,
+        "hiddennueron_num2": 264,
+        "optimizer_name": "adam",
+        "activation_name": "relu",
+        "regularizer_l1": 0.00001,
+        "regularizer_l2": 0,
+        "learning_rate": 0.00001,
+        "epoch_num": 80,
+        "batch_num": 30
+    },
+    "params_ds_cnv": {
+        "dropout_rate1": 0.2832729239300883,
+        "dropout_rate2": 0.2439727516265041,
+        "hiddennueron_num1": 38,
+        "hiddennueron_num2": 42,
+        "optimizer_name": "sgd",
+        "activation_name": "tanh",
+        "regularizer_l1": 0.00001,
+        "regularizer_l2": 0.0001,
+        "learning_rate": 0.000001,
+        "epoch_num": 20,
+        "batch_num": 30
+    }
+    
+    
+}
