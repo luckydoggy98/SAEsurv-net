@@ -1,10 +1,5 @@
 {
-    #hidden_layer=1:
-    #"dropout_rate":{"_type":"uniform","_value":[0, 0.5]},
-    #hidden_layer=3:
-    "dropout_rate1":{"_type":"uniform","_value":[0, 0.5]},
-    "dropout_rate2":{"_type":"uniform","_value":[0, 0.5]},
-    "hidden_num":{"_type": "quniform", "_value": [10,500,5]},
+    "dropout_rate":{"_type":"uniform","_value":[0, 0.5]},
     
     "bottleneck_num":{"_type": "quniform", "_value": [10,500,5]},
 
